@@ -9,14 +9,14 @@
     background: white;
 }
 
-/* Both header rows */
+
 .top-header,
 .bottom-header {
     width: 100%;
     background: white;
 }
 
-/* Keeps the contents aligned */
+
 .header-container {
     width: 90%;
     max-width: 1200px;
@@ -38,8 +38,6 @@
 .top-header .header-container {
     min-height: 70px;
 }
-
-/* Logo */
 
 .logo {
     display: flex;
@@ -68,8 +66,6 @@
     height: 35px;
 }
 
-
-/* Main navigation */
 
 .main-nav {
     display: flex;
@@ -111,9 +107,6 @@
 }
 
 
-/* Login */
-
-
 
 /* ==== SECOND HEADER ==== */
 
@@ -121,7 +114,7 @@
     min-height: 48px;
 }
 
-/* Secondary navigation */
+
 
 .secondary-nav {
     display: flex;
@@ -131,8 +124,7 @@
     /* margin-left: 0px; */
 }
 
-/* Search */
-/* Header Action Group */
+
 .header-actions {
     display: flex;
     align-items: center;
@@ -140,7 +132,7 @@
     margin-left: auto;
 }
 
-/* Text Visibility Toggles */
+
 .mobile-text {
     display: none;
 }
@@ -149,7 +141,7 @@
     display: inline;
 }
 
-/* Login Button Base */
+
 .login-btn {
     display: flex;
     align-items: center;
@@ -164,7 +156,7 @@
     white-space: nowrap;
 }
 
-/* Search Button Base */
+
 .search-btn {
     border: none;
     background: transparent;
@@ -174,9 +166,9 @@
     margin-left: 520px;
 }
 
-/* Hamburger Button Base */
+
 .hamburger-btn {
-    display: none; /* Hidden on desktop */
+    display: none; 
     border: none;
     background: transparent;
     font-size: 22px;
@@ -187,9 +179,7 @@
 
 
 
-/* =========================
-   HERO CAROUSEL
-========================= */
+/* === HERO CAROUSEL ===*/
 
 .hero-carousel {
     width: 100%;
@@ -230,7 +220,6 @@
 }
 
 
-/* Building image */
 
 .building-image {
     width: 550px;
@@ -239,7 +228,6 @@
 }
 
 
-/* Celebration image */
 
 .celebration-image {
     width: 500px;
@@ -254,7 +242,6 @@
 }
 
 
-/* Celebration image */
 
 .evolution {
     width: 600px;
@@ -266,16 +253,12 @@
     background-image: url(./media/background\ 4.jpg);
 }
 
-/* ================== */
-
 .africa {
     width: 700px;
     left: 15%;
     /* bottom: 5%; */
 }
 
-
-/* Celebration image */
 
 .wema80 {
     width: 600px;
@@ -299,7 +282,6 @@
 }
 
 
-/* Celebration image */
 
 .phone {
     width: 500px;
@@ -330,16 +312,38 @@
     top: 10%;
 } */
 
+.atg {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    gap: 15px !important;
+    /* left: 60%; */
+}
+
+.atg img{
+    height: 42px !important;
+    width: 140px !important;
+    display: inline-block !important;
+    object-fit: contain !important;
+    flex-shrink: 0 !important;
+}
+
+
 .hero-right-content{
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
     margin: 150px !important;
     margin-left: 700px !important;
+    color: #ffffff;
 }
 
 .hero-available-text{
-    
+    font-size: 30px;
+    margin-top: 20px;
+    color: #ffffff;
+
 }
 
 .slide-6 {
@@ -359,9 +363,6 @@
     top: 10%;
 }
 
-/* =========================
-   CARD 7
-========================= */
 
 .slide-7 {
     position: relative;
@@ -369,7 +370,6 @@
     height: 500px;
     overflow: hidden;
 
-    /* Purple background with darker areas */
     background:
         radial-gradient(
             circle at 25% 35%,
@@ -383,11 +383,6 @@
             #42154c 100%
         );
 }
-
-
-/* =========================
-   TEXT
-========================= */
 
 .slide-7 .hero-content {
     position: absolute;
@@ -429,9 +424,7 @@
 }
 
 
-/* =========================
-   LEARN MORE BUTTON
-========================= */
+/* === LEARN MORE BUTTON === */
 
 .slide-7 .learn-more {
     display: inline-flex;
@@ -465,7 +458,6 @@
 }
 
 
-/* HOVER */
 
 .slide-7 .learn-more:hover {
     background-color: #7b247c;
@@ -488,9 +480,6 @@
     object-fit: contain;
 }
 
-/* =========================
-   CARD 8
-========================= */
 
 .slide-8 {
     position: relative;
@@ -501,10 +490,6 @@
     background: #ffffff;
 }
 
-
-/* =========================
-   TEXT
-========================= */
 
 .slide-8 .hero-content {
     position: absolute;
@@ -544,10 +529,6 @@
 }
 
 
-/* =========================
-   BUTTON
-========================= */
-
 .slide-8 .learn-more {
     display: inline-flex;
 
@@ -574,7 +555,7 @@
 }
 
 
-/* HOVER */
+
 
 .slide-8 .learn-more:hover {
     background: #ffffff;
@@ -585,9 +566,6 @@
 }
 
 
-/* =========================
-   PEOPLE IMAGE
-========================= */
 
 .slide-8 .card8-image {
     position: absolute;
@@ -602,9 +580,6 @@
     object-fit: contain;
 }
 
-/* =========================
-   CARD 9
-========================= */
 
 .slide-9 {
     position: relative;
@@ -612,7 +587,6 @@
     height: 500px;
     overflow: hidden;
 
-    /* Main pink/red background + bottom glow */
     background:
         radial-gradient(
             ellipse 500% 50% at 50% 100%,
@@ -631,9 +605,6 @@
 }
 
 
-/* =========================
-   TEXT
-========================= */
 
 .slide-9 .hero-content {
     position: absolute;
@@ -671,10 +642,6 @@
 }
 
 
-/* =========================
-   LEARN MORE BUTTON
-========================= */
-
 .slide-9 .learn-more {
     display: inline-flex;
 
@@ -701,8 +668,6 @@
 }
 
 
-/* HOVER */
-
 .slide-9 .learn-more:hover {
     background: #8b3287;
     color: white;
@@ -711,10 +676,6 @@
     border: 1px solid #ffffff;
 }
 
-
-/* =========================
-   SARA IMAGE
-========================= */
 
 .slide-9 .sara-image {
     position: absolute;
@@ -729,17 +690,12 @@
     object-fit: contain;
 }
 
-/* =========================
-   CARD 10
-========================= */
-
 .slide-10 {
     position: relative;
     width: 100%;
     height: 500px;
     overflow: hidden;
 
-    /* Teal → blue → purple background + purple bottom glow */
     background:
         radial-gradient(
             ellipse 125% 60% at 50% 105%,
@@ -758,10 +714,6 @@
         );
 }
 
-
-/* =========================
-   TEXT
-========================= */
 
 .slide-10 .hero-content {
     position: absolute;
@@ -799,9 +751,6 @@
 }
 
 
-/* =========================
-   LEARN MORE BUTTON
-========================= */
 
 .slide-10 .learn-more {
     display: inline-flex;
@@ -837,10 +786,6 @@
 }
 
 
-/* =========================
-   LOANS IMAGE
-========================= */
-
 .slide-10 .loans-image {
     position: absolute;
 
@@ -854,9 +799,6 @@
     object-fit: contain;
 }
 
-/* =========================
-   CARD 11
-========================= */
 
 .slide-11 {
     position: relative;
@@ -864,7 +806,6 @@
     height: 500px;
     overflow: hidden;
 
-    /* Purple base + pink wave glow + black bottom fade */
     background:
         linear-gradient(
             to top,
@@ -888,10 +829,6 @@
         );
 }
 
-
-/* =========================
-   TEXT CONTENT
-========================= */
 
 .slide-11 .hero-content {
     position: absolute;
@@ -921,11 +858,6 @@
     font-size: 12px;
     line-height: 1.45;
 }
-
-
-/* =========================
-   LEARN MORE BUTTON
-========================= */
 
 .slide-11 .learn-more {
     display: inline-flex;
@@ -957,10 +889,6 @@
 }
 
 
-/* =========================
-   KIDDIES IMAGE
-========================= */
-
 .slide-11 .kiddies-image {
     position: absolute;
 
@@ -973,10 +901,6 @@
     object-fit: contain;
 }
 
- 
-/* =========================
-   CARD 12
-========================= */
 
 .slide-12 {
     position: relative;
@@ -992,11 +916,6 @@
         ),
         #f8f7f5;
 }
-
-
-/* =========================
-   TEXT CONTENT
-========================= */
 
 .slide-12 .hero-content {
     position: absolute;
@@ -1028,10 +947,6 @@
 }
 
 
-/* =========================
-   LEARN MORE BUTTON
-========================= */
-
 .slide-12 .learn-more {
     display: inline-flex;
     align-items: center;
@@ -1062,10 +977,6 @@
     border: 1px solid #7b247c;
 }
 
-
-/* =========================
-   GREAT PLACE TO WORK IMAGE
-========================= */
 
 .slide-12 .workplace-image {
     position: absolute;
@@ -1610,11 +1521,7 @@
 }
 
 
-/* ==========================================
-   Investor Relations Section Styling
-   ========================================== */
 
-/* Full Width Section Container (Add your background color/image here later) */
 .investor-section {
   width: 100%;
   /* max-width: 2000px; */
@@ -1623,14 +1530,14 @@
   background: purple;
 }
 
-/* Centered Content Container */
+
 .custom-container {
   max-width: 1250px !important;
   margin: 10px auto;
   padding: 0 20px;
 }
 
-/* Top Left Content */
+
 .sub-heading {
   display: block;
   font-size: 16px;
@@ -1657,7 +1564,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* 2x2 Stats Grid */
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1682,7 +1589,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Hero Image Wrapper */
+
 .hero-image-wrapper img {
   width: 100%;
   height: 100%;
@@ -1690,11 +1597,12 @@
   border-radius: 4px;
 }
 
-/* Feature Cards Styling */
+
 .feature-card {
   background-color: #ffffff;
   padding: 30px 24px;
   /* border-radius: 6px; */
+  
   height: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
@@ -1715,46 +1623,42 @@
   margin: 0;
 }
 
-/* Hover Effect: Card lifts up & heading turns purple */
+
 .feature-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .feature-card:hover h3 {
-  color: #6c1d7c; /* Wema Bank Purple accent */
+  color: #6c1d7c; 
 }
 
 
 
-/* ==========================================
-   Sustainability Section Styling
-   ========================================== */
 
-/* Main Section Wrapper (No full-width background specified) */
 .sustainability-section {
   width: 100%;
   padding: 60px 0;
   background-color: #ffffff;
 }
 
-/* Centered Layout Container */
+
 .custom-container {
   max-width: 1250px !important;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Top Left Sub-heading & Title */
+
 .sub-heading-wrapper {
   margin-bottom: 12px;
 }
 
 .sub-heading1 {
-  /* display: inline-flex; */
+
   align-items: center;
   margin-top: 20px;
-  color: #6c1d7c; /* Wema Bank Accent Purple */
+  color: #6c1d7c; 
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -1775,7 +1679,7 @@
   max-width: 90%;
 }
 
-/* Learn More Pill Button */
+
 .btn-learn-more {
   display: inline-flex;
   align-items: center;
@@ -1797,10 +1701,9 @@
 transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Right Side: 2x2 Image Grid */
+
 .sustainability-image-grid {
   display: grid;
-  /* grid-template-rows: repeat(4, 1fr); */
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
@@ -1819,7 +1722,7 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   object-fit: cover;
 }
 
-/* Bottom Feature Cards Styling */
+
 .feature-card {
   background-color: #f9f9f9;
   padding: 32px 24px;
@@ -1850,7 +1753,6 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   margin: 0;
 }
 
-/* Hover Effect: Card lifts up & heading turns purple */
 .feature-card:hover {
   transform: translateY(-8px);
   background-color: #ffffff;
@@ -1862,9 +1764,7 @@ transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 
-/* ==========================================
-   Testimonial Section Styling
-   ========================================== */
+
 
 .testimonial-section {
   width: 100%;
@@ -1872,14 +1772,14 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   background-color: #fcfcfc;
 }
 
-/* Centered Container */
+
 .custom-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Header Text */
+
 .section-header {
   margin-bottom: 35px;
 }
@@ -1898,7 +1798,7 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   font-weight: 700;
 }
 
-/* Testimonial Card (Equal height & pushed bottom text) */
+
 .testimonial-card {
   background-color: #ffffff;
   border: 1px solid #e2e2e2;
@@ -1907,12 +1807,12 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Pushes author name to the bottom */
+  justify-content: space-between; 
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   cursor: pointer;
 }
 
-/* Quote Paragraph */
+
 .quote-text {
   color: #444444;
   font-size: 0.875rem;
@@ -1920,7 +1820,7 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   margin-bottom: 24px;
 }
 
-/* Author Name at Bottom */
+
 .author-name {
   color: #111111;
   font-size: 0.95rem;
@@ -1937,11 +1837,8 @@ transition: background-color 0.3s ease, transform 0.2s ease;
 
 
 
-/* ==========================================
-   ALAT Promo Section Styling
-   ========================================== */
 
-/* Main Section Outer Wrapper */
+
 .alat-promo-section {
   width: 100%;
   padding: 60px 0 0 0 ;
@@ -1950,14 +1847,13 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   margin-top: 20px;
 }
 
-/* Centered Container Alignment */
 .custom-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Section Header & Toggle Container */
+
 .alat-header {
   margin-bottom: 40px;
 }
@@ -1982,7 +1878,7 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   opacity: 1;
 }
 
-/* Custom Sliding Switch */
+
 .switch {
   position: relative;
   display: inline-block;
@@ -2029,14 +1925,14 @@ input:checked + .slider:before {
   background-color: #6c1d7c;
 }
 
-/* Main Section Title */
+
 .alat-title {
   font-size: 2rem;
   font-weight: 700;
   margin: 0;
 }
 
-/* App Store Badges (Left Side) */
+
 .store-btn img {
   height: 42px;
   width: auto;
@@ -2047,7 +1943,7 @@ input:checked + .slider:before {
   transform: scale(1.04);
 }
 
-/* Phone Mockup Wrapper (Center) */
+
 .phone-wrapper img {
   max-height: 420px;
   width: auto;
@@ -2055,7 +1951,7 @@ input:checked + .slider:before {
   /* display: block; */
 }
 
-/* Right Info & Tagline */
+
 .alat-info {
   display: flex;
   flex-direction: column;
@@ -2070,7 +1966,8 @@ input:checked + .slider:before {
   margin: 0;
 }
 
-/* Learn More Transparent Pill Button */
+
+
 .btn-learn-more1 {
   display: inline-block;
   border: 2px solid #ffffff;
@@ -2093,9 +1990,7 @@ input:checked + .slider:before {
   color: #111111;
 } */
 
-/* ==========================================
-   Announcements & Articles (Blog) Section Styling
-   ========================================== */
+
 
 .blog-section {
   width: 100%;
@@ -2118,7 +2013,7 @@ input:checked + .slider:before {
   margin: 0;
 }
 
-/* Card Wrappers & Elevate Hover Effect */
+
 .featured-card,
 .blog-card {
   background-color: #ffffff;
@@ -2135,14 +2030,15 @@ input:checked + .slider:before {
   border-color: #d8d8d8;
 }
 
-/* Equal Height setup for 3-card bottom grid */
+
 .blog-card {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-/* Image Wrappers */
+
+
 .blog-img-box {
   width: 100%;
   overflow: hidden;
@@ -2164,7 +2060,7 @@ input:checked + .slider:before {
   display: block;
 }
 
-/* Card Body Content Padding & Flex Alignment */
+
 .blog-card-body {
   padding: 24px;
   display: flex;
@@ -2172,7 +2068,7 @@ input:checked + .slider:before {
   height: 100%;
 }
 
-/* Meta Category Badge & Date */
+
 .blog-meta {
   display: flex;
   align-items: center;
@@ -2194,7 +2090,7 @@ input:checked + .slider:before {
   font-size: 0.8rem;
 }
 
-/* Headlines */
+
 .blog-card-title {
   font-weight: 700;
   line-height: 1.4;
@@ -2219,7 +2115,7 @@ input:checked + .slider:before {
   color: #6c1d7c;
 }
 
-/* Excerpt Text */
+
 .blog-card-excerpt {
   color: #666666;
   font-size: 0.875rem;
@@ -2227,9 +2123,9 @@ input:checked + .slider:before {
   margin-bottom: 20px;
 }
 
-/* Read More Link Arrow Hover Transition */
+
 .read-more-btn {
-  margin-top: auto; /* Pushes the button to the bottom of the card */
+  margin-top: auto;
   display: inline-block;
   background: #ffffff;
   color: purple;
@@ -2253,9 +2149,7 @@ input:checked + .slider:before {
 
 
 
-/* ==========================================
-   Video Section Styling
-   ========================================== */
+
 
 .video-section {
   width: 100%;
@@ -2263,7 +2157,7 @@ input:checked + .slider:before {
   background-color: #ffffff;
 }
 
-/* Category Tag & Title */
+
 .video-tag {
   display: block;
   color: #6c1d7c;
@@ -2279,7 +2173,7 @@ input:checked + .slider:before {
   margin: 0;
 }
 
-/* 1px Border Frame with Padding */
+
 .video-frame-box {
   width: 100%; 
   border: 1px solid #000000;
@@ -2288,7 +2182,7 @@ input:checked + .slider:before {
   background-color: #ffffff;
 }
 
-/* Dark YouTube Mock Screen */
+
 .video-placeholder {
   width: 100%;
   height: 380px;
@@ -2298,7 +2192,7 @@ input:checked + .slider:before {
   border-radius: 4px;
 }
 
-/* YouTube Mock Text & Button Styling */
+
 .yt-logo {
   font-size: 1.5rem;
   font-weight: 700;
@@ -2335,9 +2229,7 @@ input:checked + .slider:before {
 }
 
 
-/* =========================
-   FOOTER BASE
-========================= */
+
 
 .footer {
     position: relative;
@@ -2377,7 +2269,7 @@ input:checked + .slider:before {
     padding: 30px 0 50px;
 }
 
-/* Newsletter CSS (Preserved untouched) */
+
 .newsletter {
     max-width: 1200px;
     margin: 0 auto;
@@ -2461,9 +2353,7 @@ input:checked + .slider:before {
 }
 
 
-/* =========================
-   FOOTER GRID (4 COLUMNS)
-========================= */
+
 
 .footer-grid {
     display: grid;
@@ -2486,7 +2376,7 @@ input:checked + .slider:before {
     color: #ffffff;
 }
 
-/* Functional Links & Hover Highlight */
+
 .footer-column a {
     display: block;
     margin-bottom: 9px;
@@ -2498,15 +2388,15 @@ input:checked + .slider:before {
 }
 
 .footer-column a:hover {
-    color: #d884ec; /* Interactive light purple hover */
+    color: #d884ec;
 }
 
-/* Vertical spacing for stacked bottom blocks (Self Service, Financial Info, Contact) */
+
 .footer-sub-block {
     margin-top: 36px;
 }
 
-/* Static Contact Info (No Hover effect) */
+
 .contact-block p {
     color: rgba(255, 255, 255, 0.85);
     font-size: 15px;
@@ -2515,9 +2405,7 @@ input:checked + .slider:before {
 }
 
 
-/* =========================
-   BRAND SECTION
-========================= */
+
 
 .footer-brand {
     display: flex;
@@ -2585,9 +2473,7 @@ input:checked + .slider:before {
     color: rgba(255, 255, 255, 0.9);
 }
 
-/* =========================
-   BOTTOM BAR
-========================= */
+
 
 .footer-bottom {
     background-color: rgba(243, 240, 240, 0.15);
@@ -2617,10 +2503,9 @@ input:checked + .slider:before {
 
 
 
-/* ==== MOBILE HEADER BREAKPOINT ==== */
+
 @media (max-width: 768px) {
     
-    /* Hide desktop navigation rows */
     .main-nav,
     .bottom-header {
         display: none;
@@ -2632,12 +2517,11 @@ input:checked + .slider:before {
         width: auto;
   }
 
-    /* Show hamburger icon on mobile */
     .hamburger-btn {
         display: block;
     }
 
-    /* Swap desktop login text for mobile text */
+
     .desktop-text {
         display: none;
     }
@@ -2645,7 +2529,7 @@ input:checked + .slider:before {
         display: inline;
     }
 
-    /* Adjust login button padding for smaller screens */
+
     .login-btn {
         padding: 6px 14px;
         font-size: 12px;
@@ -2654,7 +2538,7 @@ input:checked + .slider:before {
     .mobile-header-right {
     display: flex;
     align-items: center;
-    gap: 12px; /* Space between Login, Search, and Hamburger */
+    gap: 12px;
   }
   .search-btn{
     display: flex;
@@ -2662,12 +2546,10 @@ input:checked + .slider:before {
 }
 
 
-/* ==========================================
-   HERO CAROUSEL MOBILE RESPONSIVENESS OVERRIDE
-   ========================================== */
+
 
 @media (max-width: 768px) {
-  /* 1. Allow slide containers to fit their contents vertically */
+
   .hero-slide,
   .slide-7,
   .slide-8,
@@ -2686,13 +2568,13 @@ input:checked + .slider:before {
     position: relative !important;
   }
 
-  /* 2. Hide hardcoded <br> tags on mobile to stop forced text clipping */
+  
   .hero-content h1 br,
   .hero-content p br {
     display: none !important;
   }
 
-  /* 3. Reset text container positioning from absolute to static */
+
   .slide-7 .hero-content,
   .slide-8 .hero-content,
   .slide-9 .hero-content,
@@ -2709,7 +2591,7 @@ input:checked + .slider:before {
     z-index: 5 !important;
   }
 
-  /* 4. Scale down large headlines */
+ 
   .slide-7 .hero-content h1,
   .slide-8 .hero-content h1 {
     font-size: 28px !important;
@@ -2728,7 +2610,7 @@ input:checked + .slider:before {
     word-break: break-word !important;
   }
 
-  /* 5. Scale down paragraph body text */
+  
   .slide-7 .hero-content p,
   .slide-8 .hero-content p,
   .slide-9 .hero-content p,
@@ -2741,7 +2623,7 @@ input:checked + .slider:before {
     margin: 0 auto 16px auto !important;
   }
 
-  /* 6. Center the Learn More pill buttons */
+
   .slide-7 .learn-more,
   .slide-8 .learn-more,
   .slide-9 .learn-more,
@@ -2753,7 +2635,7 @@ input:checked + .slider:before {
     font-size: 13px !important;
   }
 
-  /* 7. Anchor images cleanly to the bottom of each slide */
+
   .slide-7 .vr-image,
   .slide-8 .card8-image,
   .slide-9 .sara-image,
@@ -2773,7 +2655,7 @@ input:checked + .slider:before {
     object-fit: contain !important;
   }
 
-  /* 8. Fix for image banner slides (Slides 1 to 6) */
+  
   .slide-1 .slide-image,
   .slide-2 .slide-image,
   .slide-3 .slide-image,
@@ -2792,18 +2674,14 @@ input:checked + .slider:before {
   }
 }
 
-/* ==========================================
-   DESKTOP DEFAULT RESET FOR ACCORDION
-   ========================================== */
+
 .quick-links-header {
-  display: none; /* Hide toggle bar on desktop */
+  display: none; 
 }
 
-/* ==========================================
-   QUICK LINKS MOBILE RESPONSIVENESS OVERRIDE
-   ========================================== */
+
 @media (max-width: 768px) {
-  /* Show mobile header bar */
+
   .quick-links-header {
     display: flex !important;
     justify-content: space-between !important;
@@ -2815,7 +2693,7 @@ input:checked + .slider:before {
     background: #ffffff !important;
     border-bottom: 1px solid #eee !important;
     cursor: pointer !important;
-    list-style: none !important; /* Hide native browser summary marker */
+    list-style: none !important; 
   }
 
   .quick-links-header::-webkit-details-marker {
@@ -2826,7 +2704,8 @@ input:checked + .slider:before {
     transform: rotate(180deg);
   }
 
-  /* Reset layout container from flex row to full-width vertical block */
+
+
   .quick-links {
     display: block !important;
     background-color: #ffffff !important;
@@ -2835,7 +2714,7 @@ input:checked + .slider:before {
     width: 100% !important;
   }
 
-  /* Convert cards into vertical list items */
+  
   .quick-card {
     width: 100% !important;
     height: auto !important;
@@ -2852,31 +2731,29 @@ input:checked + .slider:before {
     align-items: center !important;
   }
 
-  /* Hide card icons on mobile list view (matching Wema's text list) */
+  
   .quick-card .quick-icon {
     display: none !important;
   }
 
-  /* Align link text */
+  
   .quick-card p {
     font-size: 14px !important;
     color: #666666 !important;
     margin: 0 !important;
   }
 
-  /* Disable hover lift animation on mobile */
+  
   .quick-card:hover {
     transform: none !important;
     box-shadow: none !important;
   }
 }
 
-/* ==========================================
-   OUR PRODUCTS - MOBILE HORIZONTAL SWIPE
-   ========================================== */
+
 
 @media (max-width: 768px) {
-  /* 1. Fix mobile text positioning & margins */
+  
   .products-intro {
     width: 100% !important;
     margin-left: 0 !important;
@@ -2891,7 +2768,7 @@ input:checked + .slider:before {
     line-height: 1.25 !important;
   }
 
-  /* Hide static line breaks on mobile so text fills viewport cleanly */
+  
   .products-intro p br {
     display: none !important;
   }
@@ -2902,39 +2779,39 @@ input:checked + .slider:before {
     max-width: 100% !important;
   }
 
-  /* 2. Convert Grid to Horizontal Touch Swipe Container */
+  
   .products-grid {
     display: flex !important;
     flex-direction: row !important;
     overflow-x: auto !important;
     scroll-snap-type: x mandatory !important;
-    -webkit-overflow-scrolling: touch !important; /* Smooth momentum scroll on iOS */
+    -webkit-overflow-scrolling: touch !important; 
     gap: 16px !important;
     width: 100% !important;
     margin: 20px 0 !important;
-    padding: 10px 20px 25px 20px !important; /* Extra bottom padding for card drop shadows */
+    padding: 10px 20px 25px 20px !important; 
     box-sizing: border-box !important;
 
-    /* Hide horizontal scrollbar visually */
-    scrollbar-width: none !important; /* Firefox */
-    -ms-overflow-style: none !important; /* IE/Edge */
+   
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important; 
   }
 
   .products-grid::-webkit-scrollbar {
-    display: none !important; /* Chrome, Safari, Opera */
+    display: none !important; 
   }
 
-  /* 3. Style Individual Swipe Cards */
+
   .product-card {
-    flex: 0 0 82% !important; /* Shows 82% of current card so the next card peeks from right edge */
-    scroll-snap-align: center !important; /* Snaps card cleanly into screen center on swipe */
+    flex: 0 0 82% !important; 
+    scroll-snap-align: center !important; 
     min-height: auto !important;
     padding: 24px 20px !important;
     border-radius: 8px !important;
     box-sizing: border-box !important;
   }
 
-  /* 4. Resize icons for mobile screens */
+  
   .product-icon {
     font-size: 50px !important;
     margin-bottom: 16px !important;
@@ -2956,12 +2833,12 @@ input:checked + .slider:before {
     margin-bottom: 18px !important;
   }
 
-  /* Disable hover lift transform on mobile touch */
+
   .product-card:hover {
     transform: none !important;
   }
 
-  /* Hide decorative floating side blocks on small screens */
+  
   .products-decoration {
     display: none !important;
   }
@@ -2969,25 +2846,23 @@ input:checked + .slider:before {
 
 
 
-/* ==========================================
-   SME BANKING - MOBILE RESPONSIVENESS (LARGE)
-   ========================================== */
+/* = SME BANKING - MOBILE RESPONSIVENESS (LARGE) = */
 
 @media (max-width: 768px) {
-  /* 1. Section Container Spacing */
+ 
   .sme-section {
     margin: 50px auto !important;
     padding: 0 20px !important;
   }
 
-  /* 2. Reverse flex order so Content sits ABOVE Image */
+  
   .sme-feature {
     display: flex !important;
     flex-direction: column-reverse !important;
     gap: 30px !important;
   }
 
-  /* 3. Text & Content Adjustments */
+  
   .sme-content {
     width: 100% !important;
     text-align: left !important;
@@ -3021,7 +2896,7 @@ input:checked + .slider:before {
     margin-bottom: 25px !important;
   }
 
-  /* 4. Full-Width "Learn More" Button */
+
   .sme-content .learn-more {
     display: block !important;
     width: 100% !important;
@@ -3032,7 +2907,7 @@ input:checked + .slider:before {
     border-radius: 30px !important;
   }
 
-  /* 5. SME Hero Image Styling */
+  
   .sme-image {
     width: 100% !important;
   }
@@ -3044,7 +2919,7 @@ input:checked + .slider:before {
     border-radius: 8px !important;
   }
 
-  /* 6. Larger Sub-Feature Cards */
+  
   .sme-cards {
     display: flex !important;
     flex-direction: column !important;
@@ -3054,7 +2929,7 @@ input:checked + .slider:before {
 
   .sme-card {
     width: 100% !important;
-    padding: 30px 24px !important; /* Larger touch-friendly padding */
+    padding: 30px 24px !important; 
     border-radius: 12px !important;
     border: 1px solid #eee !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05) !important;
@@ -3082,7 +2957,7 @@ input:checked + .slider:before {
     line-height: 1.6 !important;
   }
 
-  /* 7. Preserved Mobile Hover Styles (No translateY jump) */
+
   .sme-card:hover {
     transform: none !important;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
@@ -3095,12 +2970,10 @@ input:checked + .slider:before {
 }
 
 
-/* ==========================================
-   CUSTOM CARDS - MOBILE RESPONSIVENESS (LARGE)
-   ========================================== */
+/* =CUSTOM CARDS - MOBILE RESPONSIVENESS (LARGE) = */
 
 @media (max-width: 768px) {
-  /* 1. Stack content vertically & reset outer spacing */
+
   .custom-card-section {
     flex-direction: column !important;
     padding: 20px !important;
@@ -3113,7 +2986,7 @@ input:checked + .slider:before {
     text-align: left !important;
   }
 
-  /* 2. Circular Icon Container */
+ 
   .custom-card-icon {
     width: 48px !important;
     height: 48px !important;
@@ -3125,7 +2998,7 @@ input:checked + .slider:before {
     height: auto !important;
   }
 
-  /* 3. Text Sizing & Typography Scale */
+  
   .custom-card-content > span {
     font-size: 16px !important;
     font-weight: 600 !important;
@@ -3145,7 +3018,7 @@ input:checked + .slider:before {
     margin-bottom: 25px !important;
   }
 
-  /* 4. Full-Width Action Pill Button */
+  
   .custom-card-content .learn-more {
     display: block !important;
     width: 100% !important;
@@ -3156,7 +3029,7 @@ input:checked + .slider:before {
     border-radius: 30px !important;
   }
 
-  /* 5. Animated GIF Container & Sizing */
+  
   .custom-card-image {
     width: 100% !important;
   }
@@ -3168,12 +3041,10 @@ input:checked + .slider:before {
   }
 }
 
-/* ==========================================
-   ALATPAY SECTION - MOBILE RESPONSIVENESS (LARGE)
-   ========================================== */
+/* = ALATPAY SECTION - MOBILE RESPONSIVENESS (LARGE) = */
 
 @media (max-width: 768px) {
-  /* 1. Stack Content Vertically (Text top, Image bottom) */
+
   .alat-section {
     flex-direction: column-reverse !important;
     padding: 40px 20px !important;
@@ -3186,7 +3057,7 @@ input:checked + .slider:before {
     text-align: left !important;
   }
 
-  /* 2. Icon Container & Sizing */
+  
   .alat-icon {
     margin-bottom: 12px !important;
   }
@@ -3200,7 +3071,7 @@ input:checked + .slider:before {
     font-size: 28px !important;
   }
 
-  /* 3. Typography Scale & Hierarchy */
+
   .alat-content > span {
     font-size: 16px !important;
     font-weight: 600 !important;
@@ -3220,7 +3091,7 @@ input:checked + .slider:before {
     margin-bottom: 25px !important;
   }
 
-  /* 4. Full-Width Action Pill Button */
+  
   .alat-content .learn-more {
     display: block !important;
     width: 100% !important;
@@ -3231,7 +3102,6 @@ input:checked + .slider:before {
     border-radius: 30px !important;
   }
 
-  /* 5. Image Banner Container */
   .alat-image {
     width: 100% !important;
   }
@@ -3244,12 +3114,10 @@ input:checked + .slider:before {
   }
 }
 
-/* ==========================================
-   INVESTOR RELATIONS - MOBILE HORIZONTAL SWIPE
-   ========================================== */
+/* = INVESTOR RELATIONS - MOBILE HORIZONTAL SWIPE = */
 
 @media (max-width: 768px) {
-  /* 1. Reset Container Spacing */
+ 
   .investor-section {
     padding: 40px 0 !important;
   }
@@ -3258,7 +3126,7 @@ input:checked + .slider:before {
     padding: 0 20px !important;
   }
 
-  /* 2. Top Content & Stats Sizing */
+  
   .main-title {
     font-size: 26px !important;
     line-height: 1.25 !important;
@@ -3274,12 +3142,11 @@ input:checked + .slider:before {
     margin-bottom: 25px !important;
   }
 
-  /* 3. Hero Image Spacing */
   .hero-image-wrapper {
     margin-bottom: 30px !important;
   }
 
-  /* 4. Convert Bootstrap Row to Touch Horizontal Scroll Slider */
+
   .investor-section .row.g-4 {
     display: flex !important;
     flex-direction: row !important;
@@ -3288,29 +3155,28 @@ input:checked + .slider:before {
     scroll-snap-type: x mandatory !important;
     -webkit-overflow-scrolling: touch !important;
     gap: 16px !important;
-    margin: 0 -20px !important; /* Pull container edge-to-edge for full swipe area */
-    padding: 10px 20px 25px 20px !important; /* Extra bottom padding for card drop shadow */
+    margin: 0 -20px !important; 
+    padding: 10px 20px 25px 20px !important; 
     box-sizing: border-box !important;
 
-    /* Hide scrollbar visually */
-    scrollbar-width: none !important; /* Firefox */
-    -ms-overflow-style: none !important; /* IE/Edge */
+    
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important; 
   }
 
   .investor-section .row.g-4::-webkit-scrollbar {
-    display: none !important; /* Chrome, Safari, Opera */
+    display: none !important; 
   }
 
-  /* 5. Force Bootstrap Columns into Full Cards for Horizontal Slider */
+  
   .investor-section .row.g-4 > [class*="col-"] {
-    flex: 0 0 82% !important; /* Takes 82% screen width so next card peeks in */
+    flex: 0 0 82% !important; 
     max-width: 82% !important;
     width: 82% !important;
-    scroll-snap-align: center !important; /* Magnetic snap on swipe */
-    padding: 0 !important; /* Remove Bootstrap column gutters inside horizontal wrapper */
-  }
+    scroll-snap-align: center !important; 
+    padding: 0 !important; 
 
-  /* 6. Feature Card Sizing */
+  
   .feature-card {
     min-height: 180px !important;
     padding: 24px 20px !important;
@@ -3329,12 +3195,10 @@ input:checked + .slider:before {
   }
 }
 
-/* ==========================================
-   SUSTAINABILITY SECTION - MOBILE OVERRIDES
-   ========================================== */
+/* = SUSTAINABILITY SECTION - MOBILE OVERRIDES = */
 
 @media (max-width: 768px) {
-  /* 1. Container & Outer Section Spacing */
+ 
   .sustainability-section {
     padding: 40px 0 !important;
   }
@@ -3343,7 +3207,7 @@ input:checked + .slider:before {
     padding: 0 20px !important;
   }
 
-  /* 2. Top Sub-heading & Slightly Reduced Title */
+ 
   .sub-heading-wrapper {
     margin-bottom: 8px !important;
   }
@@ -3354,7 +3218,7 @@ input:checked + .slider:before {
   }
 
   .main-title1 {
-    font-size: 1.5rem !important; /* Scaled down slightly for clean mobile readability */
+    font-size: 1.5rem !important;
     line-height: 1.3 !important;
     margin-bottom: 14px !important;
   }
@@ -3366,7 +3230,7 @@ input:checked + .slider:before {
     margin-bottom: 24px !important;
   }
 
-  /* 3. Full-Width Learn More Pill Button */
+  
   .btn-learn-more {
     display: flex !important;
     justify-content: center !important;
@@ -3376,7 +3240,7 @@ input:checked + .slider:before {
     box-sizing: border-box !important;
   }
 
-  /* 4. 2x2 Image Grid Layout */
+  
   .sustainability-image-grid {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;
@@ -3390,7 +3254,7 @@ input:checked + .slider:before {
     border-radius: 6px !important;
   }
 
-  /* 5. Vertical Stack for Feature Cards (Hover effects untouched) */
+  
   .sustainability-section .row.g-4 {
     display: flex !important;
     flex-direction: column !important;
@@ -3417,12 +3281,10 @@ input:checked + .slider:before {
   }
 }
 
-/* ==========================================
-   TESTIMONIAL SECTION - MOBILE RESPONSIVENESS
-   ========================================== */
+/* = TESTIMONIAL SECTION - MOBILE RESPONSIVENESS = */
 
 @media (max-width: 768px) {
-  /* 1. Section & Container Spacing */
+  
   .testimonial-section {
     padding: 40px 0 !important;
   }
@@ -3431,7 +3293,7 @@ input:checked + .slider:before {
     padding: 0 20px !important;
   }
 
-  /* 2. Header Text Scale */
+  
   .testimonial-section .section-header {
     margin-bottom: 20px !important;
   }
@@ -3446,18 +3308,18 @@ input:checked + .slider:before {
     line-height: 1.25 !important;
   }
 
-  /* 3. Hide cards 2, 3, and 4 on mobile */
+  
   .testimonial-section .row.g-4 > [class*="col-"]:nth-child(n+2) {
     display: none !important;
   }
 
-  /* 4. Ensure Card 1 takes full width */
+  
   .testimonial-section .row.g-4 > [class*="col-"]:first-child {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  /* 5. First Card Styling & Typography Scale */
+  
   .testimonial-card {
     padding: 24px 20px !important;
     border-radius: 8px !important;
@@ -3474,12 +3336,10 @@ input:checked + .slider:before {
   }
 }
 
-/* ==========================================
-   ALAT PROMO SECTION - MOBILE OVERRIDES
-   ========================================== */
+/* = ALAT PROMO SECTION - MOBILE OVERRIDES =*/
 
 @media (max-width: 768px) {
-  /* 1. Reset Outer Section Padding & Top Margin */
+  
   .alat-promo-section {
     padding: 40px 0 0 0 !important;
     margin-top: 0 !important;
@@ -3489,7 +3349,7 @@ input:checked + .slider:before {
     padding: 0 20px !important;
   }
 
-  /* 2. Header & Toggle Controls Scale */
+  
   .alat-header {
     margin-bottom: 24px !important;
   }
@@ -3509,21 +3369,21 @@ input:checked + .slider:before {
     padding: 0 10px !important;
   }
 
-  /* 3. Re-order Columns (Badges on Top, Phone Below) */
+  
   .alat-promo-section .row {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
   }
 
-  /* Left Column: App Badges (Moved to Order 1) */
+ 
   .alat-promo-section .row > [class*="col-"]:nth-child(1) {
     order: 1 !important;
     width: 100% !important;
     margin-bottom: 24px !important;
   }
 
-  /* Override the desktop 180px margin drop */
+  
   .app-badges {
     margin-top: 0 !important;
     display: flex !important;
@@ -3537,7 +3397,7 @@ input:checked + .slider:before {
     width: auto !important;
   }
 
-  /* Center Column: Phone Mockup (Moved to Order 2) */
+  
   .alat-promo-section .row > [class*="col-"]:nth-child(2) {
     order: 2 !important;
     width: 100% !important;
@@ -3556,7 +3416,7 @@ input:checked + .slider:before {
     display: block !important;
   }
 
-  /* Right Column: Hide "Simple, Easy..." and Learn More */
+ 
   .alat-promo-section .row > [class*="col-"]:nth-child(3),
   .alat-info {
     display: none !important;
@@ -3565,12 +3425,10 @@ input:checked + .slider:before {
 
 
 
-/* ==========================================
-   FOOTER SECTION - MOBILE RESPONSIVENESS
-   ========================================== */
+/* = FOOTER SECTION - MOBILE RESPONSIVENESS = */
 
 @media (max-width: 768px) {
-  /* 1. Newsletter Card Adaptation */
+  
   .newsletter {
     flex-direction: column !important;
     align-items: stretch !important;
@@ -3622,7 +3480,7 @@ input:checked + .slider:before {
     height: 44px !important;
   }
 
-  /* 2. Main Footer Layout Reset */
+
   .footer-main {
     padding: 20px 0 30px !important;
   }
@@ -3634,14 +3492,14 @@ input:checked + .slider:before {
     padding: 0 20px !important;
   }
 
-  /* Reset Desktop Margins */
+  
   .marg, 
   .tru, 
   .footer-sub-block {
     margin-top: 28px !important;
   }
 
-  /* 3. Top Section: Brand & App Badges */
+  
   .footer-brand {
     width: 100% !important;
   }
@@ -3656,7 +3514,7 @@ input:checked + .slider:before {
     margin-bottom: 24px !important;
   }
 
-  /* Hide Desktop Brand Copy & Socials in Brand Block */
+ 
   .footer-brand .social-links,
   .footer-brand .copyright {
     display: none !important;
@@ -3678,7 +3536,7 @@ input:checked + .slider:before {
     width: 120px !important;
   }
 
-  /* 4. Link Columns Grid (2-Column Split) */
+  
   .footer-grid > .footer-column {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
@@ -3687,7 +3545,7 @@ input:checked + .slider:before {
     width: 100% !important;
   }
 
-  /* Override sub-blocks to layout side-by-side */
+  
   .footer-column > div {
     min-width: 0 !important;
   }
@@ -3704,7 +3562,7 @@ input:checked + .slider:before {
     margin-bottom: 8px !important;
   }
 
-  /* 5. Mobile Bottom Social Bar & Disclaimer */
+  
   .footer-bottom {
     padding: 16px 20px !important;
     text-align: center !important;
