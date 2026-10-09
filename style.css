@@ -2,7 +2,7 @@
     font-family: Inter Tight, sans-serif;
 }
 
-/* ==== HEADER ==== */
+
 
 .site-header {
     width: 100%;
@@ -29,7 +29,7 @@
 }
 
 
-/* ==== FIRST HEADER ====*/
+
 
 .top-header {
     border-bottom: 1px solid #eeeeee;
@@ -108,7 +108,7 @@
 
 
 
-/* ==== SECOND HEADER ==== */
+
 
 .bottom-header .header-container {
     min-height: 48px;
@@ -161,9 +161,16 @@
     border: none;
     background: transparent;
     padding: 6px;
-    font-size: 16px;
+    border-radius: 100px;
+    height: 35px;
+    width: 70px;
+    font-size: 30px;
+    background-color: purple;
     cursor: pointer;
     margin-left: 520px;
+}
+.bit{
+    color: #fffff;
 }
 
 
@@ -179,7 +186,7 @@
 
 
 
-/* === HERO CAROUSEL ===*/
+
 
 .hero-carousel {
     width: 100%;
@@ -210,7 +217,7 @@
 }
 
 
-/* ==== SLIDE IMAGES ==== */
+
 
 .slide-image {
     position: absolute;
@@ -1602,7 +1609,7 @@
   background-color: #ffffff;
   padding: 30px 24px;
   /* border-radius: 6px; */
-  
+
   height: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
