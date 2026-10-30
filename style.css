@@ -1232,6 +1232,8 @@
 .sme-section {
   max-width: 1200px;
   margin: auto;
+  position: relative;
+  overflow: visible;
 }
 
 .sme-feature {
@@ -1240,8 +1242,6 @@
   gap: 10px;
 }
 
-
-
 .sme-image img {
   width: 95%;
   /* height: 400px; */
@@ -1249,19 +1249,37 @@
   display: block;
 }
 
-.sme-content {
-  flex: 1;
+.block1, .block2, .block3 {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  /* opacity: 0.6; */
+}
+
+.sme-cards, .sme-feature {
+  position: relative;
+  z-index: 1;
 }
 
 .block1{
-  top: 0;
-
+  /* position: absolute; */
+  top: -50px;
+  left: -90px;
 }
+
 .block2{
-  bottom: 10px;
-  right: 3rem;
+  top: 3%;
+  right: 10px;
 }
 
+.block3{
+  bottom: -20px;
+  left: 20px;
+}
+
+.sme-content {
+  flex: 1;
+}
 
 .sme-icon {
   color: #b832a8;
@@ -1321,6 +1339,7 @@
   background: #fff;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
 }
 
 .sme-card-icon {
@@ -1355,6 +1374,8 @@
 .sme-card:hover h3{
     color: purple;
 }
+
+
 
 .custom-card-section {
   max-width: 1300px;
@@ -2184,6 +2205,10 @@ img.phone-img.personal-content {
   border-radius: 4px;
 }
 
+.yt iframe {
+  height: 380px;
+  width: 100%;
+}
 
 .yt-logo {
   font-size: 1.5rem;
