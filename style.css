@@ -3368,15 +3368,15 @@ img.phone-img.personal-content {
   }
 
   .star {
-    display: none;
+    display: none !important;
   }
 
   .plane {
-    display: none;
+    display: none !important;
   }
 
   .curve {
-    display: none;
+    display: none !important;
   }
   
   .alat-promo-section .row {
@@ -3434,7 +3434,6 @@ img.phone-img.personal-content {
 
 
 
-/* = FOOTER SECTION - MOBILE RESPONSIVENESS = */
 
 @media (max-width: 768px) {
   
