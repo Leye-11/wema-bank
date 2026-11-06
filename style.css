@@ -2853,9 +2853,6 @@ img.phone-img.personal-content {
 }
 
 
-
-/* = SME BANKING - MOBILE RESPONSIVENESS (LARGE) = */
-
 @media (max-width: 768px) {
  
   .sme-section {
@@ -2978,8 +2975,6 @@ img.phone-img.personal-content {
 }
 
 
-/* =CUSTOM CARDS - MOBILE RESPONSIVENESS (LARGE) = */
-
 @media (max-width: 768px) {
 
   .custom-card-section {
@@ -3048,8 +3043,6 @@ img.phone-img.personal-content {
     height: auto !important;
   }
 }
-
-/* = ALATPAY SECTION - MOBILE RESPONSIVENESS (LARGE) = */
 
 @media (max-width: 768px) {
 
@@ -3122,7 +3115,6 @@ img.phone-img.personal-content {
   }
 }
 
-/* = INVESTOR RELATIONS - MOBILE HORIZONTAL SWIPE = */
 
 @media (max-width: 768px) {
  
@@ -3203,7 +3195,7 @@ img.phone-img.personal-content {
   }
 }
 
-/* = SUSTAINABILITY SECTION - MOBILE OVERRIDES = */
+
 
 @media (max-width: 768px) {
  
@@ -3289,7 +3281,6 @@ img.phone-img.personal-content {
   }
 }
 
-/* = TESTIMONIAL SECTION - MOBILE RESPONSIVENESS = */
 
 @media (max-width: 768px) {
   
@@ -3344,7 +3335,6 @@ img.phone-img.personal-content {
   }
 }
 
-/* = ALAT PROMO SECTION - MOBILE OVERRIDES =*/
 
 @media (max-width: 768px) {
   
@@ -3377,6 +3367,17 @@ img.phone-img.personal-content {
     padding: 0 10px !important;
   }
 
+  .star {
+    display: none;
+  }
+
+  .plane {
+    display: none;
+  }
+
+  .curve {
+    display: none;
+  }
   
   .alat-promo-section .row {
     display: flex !important;
