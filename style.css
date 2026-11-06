@@ -3438,6 +3438,7 @@ img.phone-img.personal-content {
 @media (max-width: 768px) {
   
   .newsletter {
+    display: none !important;
     flex-direction: column !important;
     align-items: stretch !important;
     gap: 20px !important;
