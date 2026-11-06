@@ -1136,6 +1136,7 @@
     width: 500px;
     height: auto;
     object-fit: contain;
+    margin-top: -60px;
 }
 
 .products-intro h2 {
@@ -3422,7 +3423,7 @@ img.phone-img.personal-content {
     max-height: 340px !important;
     width: auto !important;
     margin: 0 auto !important;
-    display: block !important;
+    /* display: !important; */
   }
 
  
@@ -3433,7 +3434,21 @@ img.phone-img.personal-content {
 }
 
 
+@media (max-width: 768px) {
+  .video-section {
+    margin-top: -300px !important;
+  }
+}
 
+@media (max-width: 768px) {
+  .blogcard2 {
+    margin-top: -150px;
+  }
+
+  .blogcard3 {
+    margin-top: -220px;
+  }
+}
 
 @media (max-width: 768px) {
   
